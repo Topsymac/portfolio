@@ -1,13 +1,11 @@
 import okutalogo from "../assets/okutalogo.svg";
 import okutaSmall from "../assets/okutaSmall1.svg";
 import okutaBig from "../assets/okutaBig2.svg";
-
 import flitaaLogo from "../assets/flitaaLogo.png";
 import flitaaDesktop from "../assets/flitaaDesktop.svg";
 import flitaaPhone from "../assets/flitaaPhone.svg";
 import roqquLogo from "../assets/roqqulogo2.svg";
 import roqquDesktop from "../assets/Frame34.png";
-
 import bluedotLogo from "../assets/bluedotblue.svg";
 import bluedotlabsBig from "../assets/bluedotBig2.svg";
 import bluedotlabsSmall from "../assets/bluedotlabs.svg";
