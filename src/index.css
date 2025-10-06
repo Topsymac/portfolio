@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "font-clash";
+  src: url("./assets/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font-clash";
+  src: url("./assets/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font-clash";
+  src: url("./assets/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font-clash";
+  src: url("./assets/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Light.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font-clash";
+  src: url("./assets/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Semibold.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "font-clash";
+  background-color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
