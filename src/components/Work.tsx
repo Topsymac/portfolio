@@ -6,9 +6,12 @@ import flitaaDesktop from "../assets/flitaaDesktop.svg";
 import flitaaPhone from "../assets/flitaaPhone.svg";
 import roqquLogo from "../assets/roqqulogo2.svg";
 import roqquDesktop from "../assets/Frame34.png";
-import bluedotLogo from "../assets/bluedotblue.svg";
-import bluedotlabsBig from "../assets/bluedotBig2.svg";
-import bluedotlabsSmall from "../assets/bluedotlabs.svg";
+// import bluedotLogo from "../assets/bluedotblue.svg";
+// import bluedotlabsBig from "../assets/bluedotBig2.svg";
+// import bluedotlabsSmall from "../assets/bluedotlabs.svg";
+import wakamiLogo from "../assets/wakamiLoggo.svg";
+import wakamiSmall from "../assets/wakamiSmall.jpeg";
+import wakamiBig from "../assets/wakamiBig.jpeg";
 
 // #FAE6DC
 const Work = () => {
@@ -123,7 +126,7 @@ const Work = () => {
           </div>
         </div>
         {/* bluedot */}
-        <div className="group border border-gray-300 my-8 hover:shadow-lg rounded-3xl p-8 pb-0 lg:pr-0 bg-[#F5F5F5] hover:bg-radial-[at_50%_20%] from-[#fec5b0] via-[#f8f8f8] to-white">
+        {/* <div className="group border border-gray-300 my-8 hover:shadow-lg rounded-3xl p-8 pb-0 lg:pr-0 bg-[#F5F5F5] hover:bg-radial-[at_50%_20%] from-[#fec5b0] via-[#f8f8f8] to-white">
           <div className="flex md:flex-row flex-col-reverse md:items-center items-start md:justify-between gap-4">
             <div className="flex items-center gap-4">
               <img src={bluedotLogo} alt="bluedotLogo" width={32} />
@@ -156,8 +159,49 @@ const Work = () => {
               className="rounded-br-3xl hidden lg:block transition-transform duration-700 group-hover:rotate-3 group-hover:-translate-y-6 group-hover:-translate-x-3.5"
             />
           </div>
+        </div> */}
+        {/* wakami */}
+        <div className="group border border-gray-300 my-8 hover:shadow-lg rounded-3xl p-8 pb-0 lg:pr-0 bg-[#F5F5F5] hover:bg-radial-[at_50%_20%] from-[#fec5b0] via-[#f8f8f8] to-white">
+          <div className="flex md:flex-row flex-col-reverse md:items-center items-start md:justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <img src={wakamiLogo} alt="bluedotLogo" width={64} />
+              <p className="lg:text-4xl text-lg font-semibold uppercase">
+                Wakami
+              </p>
+            </div>
+            <p className="text-[#FF8159] p-2 px-4  rounded-full bg-[#FF8A5738] mr-8 text-center">
+              <a href="https://wakamiapp.com/" target="_blank">
+                View website
+              </a>
+            </p>
+          </div>
+          <p className="text-xl py-8 pr-4">
+            Wakami is a service marketplace platform connecting users with
+            on-demand task runners. <br />I designed and developed the public
+            website and key internal products, building intuitive task flows,
+            location-based interaction tool, and responsive interfaces that
+            support task creation, tracking, and operational workflows for both
+            users and administrators.
+          </p>
+          <div className="flex items-center lg:justify-end gap-4 transition-all duration-300  mt-12">
+            <img
+              src={wakamiSmall}
+              alt=""
+              width={314}
+              className="transition-transform duration-700 group-hover:-rotate-3 group-hover:-translate-y-3 group-hover:-translate-x-3"
+            />
+            <img
+              src={wakamiBig}
+              alt=""
+              width={914}
+              className="rounded-br-3xl hidden lg:block transition-transform duration-700 group-hover:rotate-3 group-hover:-translate-y-6 group-hover:-translate-x-3.5"
+            />
+          </div>
         </div>
       </div>
+      <p className="text-center text-4xl font-bold my-8">
+        New projects are on the way, <br /> It could be yours 😅
+      </p>
     </div>
   );
 };

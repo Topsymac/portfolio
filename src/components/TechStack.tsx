@@ -1,15 +1,25 @@
 import { FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss, SiNextdotjs, SiFirebase } from "react-icons/si";
+import {
+  SiTypescript,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiFirebase,
+} from "react-icons/si";
+import { TbBrandThreejs } from "react-icons/tb";
 
 const TechStack = () => {
   const tools = [
     { icon: <FaReact className="text-sky-400" />, name: "React" },
-    { icon: <SiNextdotjs className="text-black dark:text-white" />, name: "Next.js" },
+    {
+      icon: <SiNextdotjs className="text-black dark:text-white" />,
+      name: "Next.js",
+    },
     { icon: <SiTypescript className="text-blue-600" />, name: "TypeScript" },
     { icon: <SiTailwindcss className="text-cyan-400" />, name: "Tailwind CSS" },
     { icon: <FaNodeJs className="text-green-500" />, name: "Node.js" },
     { icon: <SiFirebase className="text-yellow-500" />, name: "Firebase" },
     { icon: <FaGitAlt className="text-orange-600" />, name: "Git / GitHub" },
+    { icon: <TbBrandThreejs className="text-blue-500" />, name: "Three.js" },
   ];
 
   return (
@@ -21,9 +31,9 @@ const TechStack = () => {
           My Creative Toolkit
         </h2>
         <p className="max-w-2xl mx-auto text-gray-500 text-lg mb-12 leading-relaxed">
-          Every idea needs the right tools to shine. These are the technologies I
-          use to craft fast, accessible, and human-centered digital experiences 
-          from concept to deployment.
+          Every idea needs the right tools to shine. These are the technologies
+          I use to craft fast, accessible, and human-centered digital
+          experiences from concept to deployment.
         </p>
 
         <div className="flex flex-wrap justify-center gap-8 md:gap-12">

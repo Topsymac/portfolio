@@ -36,7 +36,8 @@ const Story = () => {
           <p className="mb-2">
             Along the way, I've built products for startups like{" "}
             <b className="text-black">Flitaa</b>,
-            <b className="text-black"> Roqqu</b> and{" "}
+            <b className="text-black"> Roqqu</b>,
+            <b className="text-black"> Wakami</b> and
             <b className="text-black"> Accendis</b>, turning ideas into living
             interfaces. Each project taught me balance between design and logic,
             clarity and creativity.
